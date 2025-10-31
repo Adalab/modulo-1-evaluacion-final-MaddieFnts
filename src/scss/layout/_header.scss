@@ -41,22 +41,57 @@
    }
   
   &--button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .boton {
     background-color: white;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border-style: none;
+    border: none;
     margin: 40px 60px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    cursor: pointer;
 
-     
-     img {
+      img {
       width: 30px;
       height: 20px;
+      border: none;
+
+
+    }
+
+          
     }     
   }
 }
 
 
+
+
+
+
+//  &--button {
+//     background-color: white;
+//     width: 60px;
+//     height: 60px;
+//     border-radius: 50%;
+//     border-style: none;
+//     margin: 40px 60px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+    
+
+     
+//      img {
+//       width: 30px;
+//       height: 20px;
+//       border: none;
+//     }     
+//   }
+// }
