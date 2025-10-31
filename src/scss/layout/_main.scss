@@ -1,0 +1,45 @@
+.page__main--tienda {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 20px 150px;
+
+h5 {
+font-size: 1.5rem;
+font-family: 'Roboto', sans-serif;
+color: #6c933e;
+margin-bottom: 10px;
+}
+
+h3 {
+font-size: 2.8rem;
+font-family: 'Roboto Slab', serif;
+color: black;
+margin-bottom: 10px;
+}
+
+p {
+font-size: 1.5rem;
+font-family: 'Roboto', sans-serif;
+color: black;
+margin-bottom: 50px;
+}
+
+button {
+background-color: white;
+color:#6c933e;
+border: 3px solid #6c933e;
+padding: 18px 60px;
+border-radius: 40px;
+font-size: 1.5rem;
+font-family: 'Roboto', sans-serif;
+cursor: pointer;
+
+&:hover {
+    background-color: #6c933e;
+    color: white;
+}
+
+}
+}
